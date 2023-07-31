@@ -54,8 +54,8 @@
     session_start();
     if(isset($_REQUEST['login'])){
     $U_name = $_REQUEST['user'];
-    $pass = md5($_REQUEST['pass']);
-    $select = "SELECT * FROM `user` WHERE U_name = '" . $U_name . "' AND pass = '" . $pass . "'";
+    $pass = md5( $_REQUEST['pass']);
+    $select = "SELECT * FROM `user` WHERE email = '" . $U_name . "' AND pass = '" . $pass . "'";
     $sql = mysqli_query($obj->connection, $select);
     $row = mysqli_fetch_row($sql);
     if ($row == NULL) {

@@ -1,6 +1,5 @@
 <?php
-include "../attaches/navbar.php";
-
+    include "../attaches/navbar.php";
 ?>
 
 <head>
@@ -237,102 +236,6 @@ include "../attaches/navbar.php";
                 </div>
             </div>
         </div>
-        <!-- <div class="sub-system-1">
-            <div class="row">
-                <div class="col">
-                    <ul class="nav" id="nav2" data-aos="fade-up">
-                        <h5 class="txt">By JP MART</h5>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=Mobile"><img src="../assets/product image/5173ghkzHnS._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobiles</div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=Mobile"><img src="../assets/product image/519IxSDFGWL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobiles</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=Refrigerator"><img src="../assets/product image/61A0Zu4K-TL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Refrigerator</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=A.C."><img src="../assets/product image/61nPiOOv9BL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">A.C.</div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="nav" id="nav2" data-aos="fade-up">
-                        <h5 class="txt">By JP MART</h5>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../attaches/categories.php?Categorie=T.V. Accesoris"><img src="../assets/product image/71fgpM7+P0L._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Accesoris</div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=Mobile Accesoris"><img src="../assets/product image/71fgpM7+P0L._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Accesoris</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=Laptop"><img src="../assets/product image/71hIfcIPyxS._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Laptop</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=Desktop"><img src="../assets/product image/81xvGbBFNhL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Desktop</div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="nav" id="nav2" data-aos="fade-up">
-                        <h5 class="txt">By JP MART</h5>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../attaches/categories.php?Categorie=Desktop"><img src="../assets/product image/71fgpM7+P0L._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Desktop</div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=Mobile"><img src="../assets/product image/61nPiOOv9BL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobile</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=A.C."><img src="../assets/product image/61nPiOOv9BL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobile</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=A.C."><img src="../assets/product image/61A0Zu4K-TL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobile</div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="nav" id="nav2" data-aos="fade-up">
-                        <h5 class="txt">By JP MART</h5>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../attaches/categories.php?Categorie=A.C."><img src="../assets/product image/61A0Zu4K-TL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobile</div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=A.C."><img src="../assets/product image/61nPiOOv9BL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobile</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=A.C."><img src="../assets/product image/61A0Zu4K-TL._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobile</div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../attaches/categories.php?Categorie=A.C."><img src="../assets/product image/71hIfcIPyxS._AC_UY218_.jpg" class="img-thumbnail"></a>
-                            <div class="txt-sub">Mobile</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
         <section class="section-1">
             <?php
             include "glide.php";
