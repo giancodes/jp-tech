@@ -1,0 +1,41 @@
+.container .heading h1 {
+    color: rgba(0, 128, 0, 0.666);
+    font-weight: 500;
+    transition: all 0.70s;
+    cursor: pointer;
+}
+
+.container .heading h1:hover {
+    color: green;
+}
+
+.container .heading p>b {
+    font-weight: 500;
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .heading p>b:hover {
+    text-decoration: none;
+}
+
+.container .heading p {
+    text-transform: capitalize;
+    text-align: justify;
+    text-justify: auto;
+    color: gray;
+    transition: all 0.50s;
+    cursor: pointer;
+}
+
+.container .heading p:hover {
+    color: black;
+}
+
+.services .service-icon {
+    width: 70px;
+    max-width: 120px;
+    max-height: 120px;
+    height: 70px;
+}

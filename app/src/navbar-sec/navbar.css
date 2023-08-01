@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
-    background-color: rgb(235, 251, 212);
-}
-
 * {
     font-family: 'Poppins', sans-serif;
+}
+
+*::selection {
+    color: white;
+    background-color: green;
 }
 
 .navbar-bg {
@@ -13,6 +14,7 @@ body {
     position: sticky;
     background-color: transparent;
     backdrop-filter: blur(7px);
+    z-index: 1;
 }
 
 nav.navbar.navbar-expand-lg {
@@ -41,6 +43,7 @@ nav.navbar.navbar-expand-lg {
 }
 
 #nav {
+    margin: 3px 0px;
     position: relative;
     padding: 5px 3px;
     background-color: rgba(185, 220, 176, 0.564);
@@ -68,4 +71,20 @@ nav.navbar.navbar-expand-lg {
 
 .btn-log {
     width: 100%;
+}
+
+div#offcanvasTop {
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+}
+
+.offcanvas-links {
+    display: block;
+    color: white;
+    transition: all 1s;
+}
+
+.offcanvas-links:hover {
+    transform: translateY(-10px) scale(1.1);
+    color: white;
 }
