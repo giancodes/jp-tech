@@ -22,23 +22,32 @@
             <p>where we take immense pride in offering you nothing but the best services. Our commitment to excellence
                 shines through in every aspect of your shopping experience. From an extensive range of high-quality
                 products to a seamless and user-friendly website, we ensure that your journey with us is nothing short
-                of exceptional. Our customer service team is dedicated to providing personalized assistance, addressing
-                any queries or concerns promptly and efficiently.</p>
+                of exceptional. </p>
             <p>fast and reliable shipping options, your purchases will reach you in no time. We believe in building
                 lasting relationships with our valued customers, which is why we strive to go above and beyond to exceed
-                your expectations. Discover the true meaning of top-notch service and shop with confidence at our store,
-                where your satisfaction is our utmost priority.</p>
+                your expectations. </p>
         </div>
         <div class="row">
             <div class="col-12 col-md-3 col-sm-6">
-                <div class="services">
-                    <img src="../../../assets/Services/accurate time.png" class="service-icon" alt="">
-                    <p>
-                        At our shopping site, we take great pride in our commitment to "On Time Delivery" - a promise
+                <div class="services">  
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Services/accurate time.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fast Service</h5>
+                            <a data-bs-toggle="collapse" href="#fastService" role="button" aria-expanded="false"
+                                aria-controls="fastService">
+                                More.....
+                            </a>
+                            <div class="collapse" id="fastService">
+                                <p class="card-text">
+                                At our shopping site, we take great pride in our commitment to "On Time Delivery" - a promise
                         that sets us apart from the rest. We understand that receiving your purchases promptly is
                         crucial, and that's why we leave no stone unturned to ensure your orders reach you when you
                         expect them.
-                    </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-sm-6">
@@ -65,34 +74,55 @@
                 </div>
             </div>
             <div class="col-12 col-md-3 col-sm-6">
-                <div class="services">
-                    <img src="../../../assets/Services/no contact delivery.png" class="service-icon" alt="">
-                    <p>
-                        At our shopping site, we understand the importance of safety and convenience, which is why we
+                <div class="services">  
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Services/no contact delivery.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">No Contact Delivery</h5>
+                            <a data-bs-toggle="collapse" href="#noCostDelivery" role="button" aria-expanded="false"
+                                aria-controls="noCostDelivery">
+                                More.....
+                            </a>
+                            <div class="collapse" id="noCostDelivery">
+                                <p class="card-text">
+                               At our shopping site, we understand the importance of safety and convenience, which is why we
                         proudly offer "No Contact Delivery" for all our valued customers. With this service, we ensure
                         that your orders are delivered right to your doorstep without the need for any physical contact.
-                    </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-sm-6">
-                <div class="services">
-                    <img src="../../../assets/Services/security.png" class="service-icon" alt="">
-                    <p>
-                        Ensuring the security of your purchases is a top priority at our shopping site. We understand
+                <div class="services">  
+                    <div class="card" style="width: 18rem;">
+                        <img src="../../../assets/Services/security.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Best Security </h5>
+                            <a data-bs-toggle="collapse" href="#security" role="button" aria-expanded="false"
+                                aria-controls="security">
+                                More.....
+                            </a>
+                            <div class="collapse" id="security">
+                                <p class="card-text">
+                               Ensuring the security of your purchases is a top priority at our shopping site. We understand
                         the
                         importance of safeguarding your valuable products, and we take every measure to provide the
                         highest level of "Product Security." From the moment you place your order to its delivery at
                         your doorstep, we implement robust security protocols to protect your items from any potential
                         risks.
-                    </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-    </script>
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
