@@ -1,5 +1,5 @@
-<?php 
-    include_once "../navbar-sec/navbar.php";
+<?php
+include_once "../navbar-sec/navbar.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,21 +29,20 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-3 col-sm-6">
-                <div class="services">  
-                    <div class="card" style="width: 18rem;">
+                <div class="services">
+                    <div class="card" style="width: auto;">
                         <img src="../../../assets/Services/accurate time.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Fast Service</h5>
-                            <a data-bs-toggle="collapse" href="#fastService" role="button" aria-expanded="false"
-                                aria-controls="fastService">
+                            <h6 class="card-title">Fast Service</h6>
+                            <a class="link">
                                 More.....
                             </a>
-                            <div class="collapse" id="fastService">
+                            <div id="fastService">
                                 <p class="card-text">
-                                At our shopping site, we take great pride in our commitment to "On Time Delivery" - a promise
-                        that sets us apart from the rest. We understand that receiving your purchases promptly is
-                        crucial, and that's why we leave no stone unturned to ensure your orders reach you when you
-                        expect them.
+                                    At our shopping site, we take great pride in our commitment to "On Time Delivery" - a promise
+                                    that sets us apart from the rest. We understand that receiving your purchases promptly is
+                                    crucial, and that's why we leave no stone unturned to ensure your orders reach you when you
+                                    expect them.
                                 </p>
                             </div>
                         </div>
@@ -52,15 +51,14 @@
             </div>
             <div class="col-12 col-md-3 col-sm-6">
                 <div class="services">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: auto;">
                         <img src="../../../assets/Services/easy replacement.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Easy Replacement</h5>
-                            <a data-bs-toggle="collapse" href="#replacement" role="button" aria-expanded="false"
-                                aria-controls="replacement">
+                            <h6 class="card-title">Easy Replacement</h6>
+                            <a class="link">
                                 More.....
                             </a>
-                            <div class="collapse" id="replacement">
+                            <div id="replacement">
                                 <p class="card-text">
                                     At our shopping site, we believe in making your shopping experience as effortless as
                                     possible,
@@ -74,20 +72,19 @@
                 </div>
             </div>
             <div class="col-12 col-md-3 col-sm-6">
-                <div class="services">  
-                    <div class="card" style="width: 18rem;">
+                <div class="services">
+                    <div class="card" style="width: auto;">
                         <img src="../../../assets/Services/no contact delivery.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">No Contact Delivery</h5>
-                            <a data-bs-toggle="collapse" href="#noCostDelivery" role="button" aria-expanded="false"
-                                aria-controls="noCostDelivery">
+                            <h6 class="card-title">No Contact Delivery</h6>
+                            <a class="link">
                                 More.....
                             </a>
-                            <div class="collapse" id="noCostDelivery">
+                            <div id="noCostDelivery">
                                 <p class="card-text">
-                               At our shopping site, we understand the importance of safety and convenience, which is why we
-                        proudly offer "No Contact Delivery" for all our valued customers. With this service, we ensure
-                        that your orders are delivered right to your doorstep without the need for any physical contact.
+                                    At our shopping site, we understand the importance of safety and convenience, which is why we
+                                    proudly offer "No Contact Delivery" for all our valued customers. With this service, we ensure
+                                    that your orders are delivered right to your doorstep without the need for any physical contact.
                                 </p>
                             </div>
                         </div>
@@ -95,23 +92,22 @@
                 </div>
             </div>
             <div class="col-12 col-md-3 col-sm-6">
-                <div class="services">  
-                    <div class="card" style="width: 18rem;">
+                <div class="services">
+                    <div class="card" style="width: auto;">
                         <img src="../../../assets/Services/security.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Best Security </h5>
-                            <a data-bs-toggle="collapse" href="#security" role="button" aria-expanded="false"
-                                aria-controls="security">
+                            <h6 class="card-title">Best Security </h6>
+                            <a class="link">
                                 More.....
                             </a>
-                            <div class="collapse" id="security">
+                            <div id="security">
                                 <p class="card-text">
-                               Ensuring the security of your purchases is a top priority at our shopping site. We understand
-                        the
-                        importance of safeguarding your valuable products, and we take every measure to provide the
-                        highest level of "Product Security." From the moment you place your order to its delivery at
-                        your doorstep, we implement robust security protocols to protect your items from any potential
-                        risks.
+                                    Ensuring the security of your purchases is a top priority at our shopping site. We understand
+                                    the
+                                    importance of safeguarding your valuable products, and we take every measure to provide the
+                                    highest level of "Product Security." From the moment you place your order to its delivery at
+                                    your doorstep, we implement robust security protocols to protect your items from any potential
+                                    risks.
                                 </p>
                             </div>
                         </div>
@@ -120,9 +116,7 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>

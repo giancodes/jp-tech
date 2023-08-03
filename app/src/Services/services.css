@@ -33,9 +33,36 @@
     color: black;
 }
 
-.services .service-icon {
-    width: 70px;
-    max-width: 120px;
-    max-height: 120px;
-    height: 70px;
+.services .card img {
+    padding: 20px auto;
+    margin: 10px auto;
+    width: 10rem;
+    height: 10rem;
+}
+
+.services .card .card-body {
+    background-color: rgba(69, 187, 0, 0.374);
+    transition: all 0.50s;
+}
+
+.services .card {
+    border: 1px solid rgba(8, 201, 8, 0.415) !important;
+    transition: all 0.60s;
+}
+
+.services .card:hover .card-body {
+    background-color: rgba(8, 201, 8, 0.415);
+}
+
+.services .card .card-body .link {
+    color: rgba(108, 108, 108, 0.737);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.services .card .card-body .card-text {
+    color: rgb(55, 55, 55);
+    text-align: justify;
+    text-justify: auto;
+    font-size: 14px;
 }
